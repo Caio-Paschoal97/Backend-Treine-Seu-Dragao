@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get('/', (req, res) => res.json({ message: 'API do Diário Pet funcionando.' }));
+app.get('/', (req, res) => res.json({ message: 'API de Treine seu Dragao funcionando.' }));
 
 app.use('/api/entries', require('./routes/treineSeuDragaoRoutes'));
 
